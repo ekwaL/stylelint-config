@@ -1,0 +1,21 @@
+{
+  "name": "@ekwal/stylelint-config",
+  "version": "0.0.0",
+  "description": "Personal stylelint config",
+  "license": "MIT",
+  "author": "ekwaL",
+  "main": "index.js",
+  "private": false,
+  "peerDependencies": {
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "devDependencies": {
+    "@ekwal/eslint-config-base": "^0.1.1",
+    "@ekwal/eslint-config-prettier": "^0.1.0",
+    "eslint": "^7.30.0"
+  }
+}
