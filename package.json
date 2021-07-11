@@ -9,6 +9,9 @@
     "+prettier.js"
   ],
   "main": "index.js",
+  "scripts": {
+    "release": "standard-version"
+  },
   "peerDependencies": {
     "stylelint": "^13.13.1"
   },
@@ -22,6 +25,7 @@
   "devDependencies": {
     "@ekwal/eslint-config-base": "^0.1.1",
     "@ekwal/eslint-config-prettier": "^0.1.0",
-    "eslint": "^7.30.0"
+    "eslint": "^7.30.0",
+    "standard-version": "^9.3.0"
   }
 }
