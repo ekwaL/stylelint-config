@@ -15,20 +15,25 @@
   "scripts": {
     "release": "standard-version"
   },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    }
+  },
   "peerDependencies": {
     "stylelint": "^13.13.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recess-order": "^2.4.0",
-    "stylelint-config-recommended": "^5.0.0",
-    "stylelint-prettier": "^1.2.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
-    "@ekwal/eslint-config-base": "^0.1.1",
-    "@ekwal/eslint-config-prettier": "^0.1.0",
-    "eslint": "^7.30.0",
-    "standard-version": "^9.3.0"
+    "@ekwal/eslint-config-base": "^0.3.0",
+    "@ekwal/eslint-config-prettier": "^0.3.0",
+    "eslint": "^8.21.0",
+    "standard-version": "^9.5.0"
   }
 }
